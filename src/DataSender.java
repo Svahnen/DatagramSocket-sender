@@ -11,9 +11,6 @@ public class DataSender {
 
     BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
     InetAddress toAdr = InetAddress.getLocalHost();
-    // Birk 85.226.191.68
-    // InetAddress toAdr = InetAddress.getByName("92.34.255.229"); tim
-    // int toPort = 1337; // Tim
     int toPort = 55555; // Tim
     DatagramSocket socket = new DatagramSocket();
     DatagramPacket packet;

@@ -11,7 +11,7 @@ public class DataSender {
 
     BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
     InetAddress toAdr = InetAddress.getLocalHost();
-    int toPort = 55555; // Tim
+    int toPort = 55555;
     DatagramSocket socket = new DatagramSocket();
     DatagramPacket packet;
     byte[] data;
